@@ -41,43 +41,43 @@
 
 int main()
 {
-    int num = 9;
-    printf("The value of num is %d \n" , num);
+    // int num = 9;
+    // printf("The value of num is %d \n" , num);
 
-    float percentage = 70.6;
-    printf("The value of percentage is %f \n" , percentage);
+    // float percentage = 70.6;
+    // printf("The value of percentage is %f \n" , percentage);
 
-    char comma = ',';
-    printf("The value of percentage is %c" , comma);
+    // char comma = ',';
+    // printf("The value of percentage is %c" , comma);
 
     // ======Write a program to add two numbers===========
 
-    int num1 = 20;
-    int num2 = 80;
-    int result = num1 + num2;
+    // int num1 = 20;
+    // int num2 = 80;
+    // int result = num1 + num2;
 
-    printf("The output is %d" , result);
+    // printf("The output is %d" , result);
 
 
 
    //===============Taking user input=================
 
-   int age;
-   printf("\nEnter your  age:\n");
+//    int age;
+//    printf("\nEnter your  age:\n");
 
    //& is used for referencing the address of variable
-   scanf("%d" , &age);
+//    scanf("%d" , &age);
    
-   printf("Your age is : %d\n\n" , age );
+//    printf("Your age is : %d\n\n" , age );
 
-
+   
    //=======Write a program to convert celsius to farhenheit=======
 
-   int celsius = 40;
+//    int celsius = 40;
 
-   float farhenheit = (celsius  * 9 / 5) + 32;
+//    float farhenheit = (celsius  * 9 / 5) + 32;
 
-   printf("%d celisius in farhenheit is %f" , celsius , farhenheit);
+//    printf("%d celisius in farhenheit is %f" , celsius , farhenheit);
 
    return 0;
 }
