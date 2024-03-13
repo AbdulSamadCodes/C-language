@@ -57,6 +57,9 @@ int main(){
 
     printHello();
 
+    int a = 3;
+    printf("%d %d %d\n" , a , ++a , a++);
+
  
   return 0;
 }
