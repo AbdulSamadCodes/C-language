@@ -52,7 +52,7 @@ int main(){
 
    char country[40];
    printf("Enter your coutry name\n");
-   scanf("%s" , country);
+   scanf("%s" , &country);
    printf("User enter %s\n" , country);
 
    //scanf cannot be used with multi word strings with empty spaces
