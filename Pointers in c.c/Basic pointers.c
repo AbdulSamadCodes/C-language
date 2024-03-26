@@ -47,5 +47,28 @@ int main() {
     // charptr = (char*)ptra;
     // printf("Now charptr is %d\n" , charptr);
 
+    //===============Pointer to pointer================
+
+    // int x = 5;
+    // int *p = &x;
+
+    // int **p_ptr = &p;
+
+    // int ***p_doubleptr = &p_ptr;
+    
+    // printf("The value of pointer *p is %d\n", p);
+    // printf("The value of pointer *p_ptr is %d\n", p_ptr);
+    // printf("The value of pointer *p_doubleptr is %d\n", p_doubleptr);
+    
+    //Defrencing pointer ro pointers
+    // printf("The value of pointer *p is %d\n", *p);
+    // printf("The value of pointer *p_ptr is %d\n", **p_ptr);
+    // printf("The value of pointer *p_doubleptr is %d\n", ***p_doubleptr);
+    
+    //We are modifying x now by triple pointers
+    
+    // ***p_doubleptr = 10;
+    // printf("The value of x now is %d\n" ,x);
+
     return 0;
 }
