@@ -56,5 +56,22 @@ int main()
     //   printf("%f\n" , ptr[i]);
     // }
 
+
+   //Making a dynamic array from user input
+
+    // int length;
+    // printf("Enter the length of the array you want to initialize\n");
+    // scanf("%d",&length);
+    // int *ptr = (int*)malloc(length * sizeof(int));
+    
+    // for(int i  = 0 ; i < length ; i++) {
+    //     ptr[i] = i + 1;
+    // }  
+    
+    // for(int j = 0 ; j < length ; j++) {
+    //     printf("%d ",ptr[j]);
+    // }
+   
+
     return 0;
 }
