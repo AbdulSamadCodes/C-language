@@ -25,8 +25,8 @@ int main() {
 
     //Now we will have to do dynamic memory allocation
 
-    // int *total = dynamicAdd(&num1,&num2);
-    // printf("The value of total is %d\n",*total);
+    int *total = dynamicAdd(&num1,&num2);
+    printf("The value of total is %d\n",*total);
 
        
     return 0;

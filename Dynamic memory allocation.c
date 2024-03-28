@@ -72,6 +72,5 @@ int main()
     //     printf("%d ",ptr[j]);
     // }
    
-
     return 0;
 }

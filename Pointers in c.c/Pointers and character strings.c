@@ -13,11 +13,11 @@ void print(char *C)
 int main() {
     // Character arrays  in c have to be terminated by a null character '\0';
     
-    char name[6] = {'S' , 'a' , 'm' , 'a' , 'd' , '\0'};
+  char name[6] = {'S' , 'a' , 'm' , 'a' , 'd' , '\0'};
     // printf("%s\n" , name);
     
     //A pointer to a character array
-    char *name_ptr = name;
+   char *name_ptr = name;
     // printf("The address of string is :%d\n" , name_ptr);
     // printf("The value of first index is :%c\n",*(name_ptr));
     // name_ptr++;
